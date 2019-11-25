@@ -4,7 +4,12 @@ file{'/root/readme':
   content => 'this is my first play with puppet and i am going to try to go far then you think an you will see the ruslts and  i will win',
   owner => 'root'
 }
+user{'yasmine':
+  ensure => present,
+  manage_home => true,
+  group => ['wheel'],
 
+}
 
 
 }
