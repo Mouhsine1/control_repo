@@ -6,7 +6,6 @@ file{'/root/readme':
 }
 user{'yasmine':
   ensure => present,
-  group => ['wheel'],
 
 }
 
